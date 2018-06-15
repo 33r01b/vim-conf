@@ -52,8 +52,9 @@ nnoremap <silent> <A-Right> :execute 'silent! tabmove ' . (tabpagenr()+1)<CR>
 
 "-- Plugins --
 
+"airblade/vim-gitgutter
+set updatetime=100
 
-
-
-
-
+"junegunn/fzf.vim
+set rtp+=~/.fzf
+map ; :Files<CR>
