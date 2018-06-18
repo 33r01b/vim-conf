@@ -56,6 +56,7 @@ nnoremap <silent> <A-Right> :execute 'silent! tabmove ' . (tabpagenr()+1)<CR>
 set updatetime=100
 
 "junegunn/fzf.vim
+"require junegunn/fzf ( https://github.com/junegunn/fzf#installation )
 set rtp+=~/.fzf
 map ; :Files<CR>
 
