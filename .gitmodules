@@ -4,3 +4,9 @@
 [submodule "pack/plugins/start/vim-gitgutter"]
 	path = pack/plugins/start/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter
+[submodule "pack/plugins/start/ale"]
+	path = pack/plugins/start/ale
+	url = https://github.com/w0rp/ale
+[submodule "pack/plugins/start/php-indent"]
+	path = pack/plugins/start/php-indent
+	url = https://github.com/2072/PHP-Indenting-for-VIm.git
