@@ -10,3 +10,6 @@
 [submodule "pack/plugins/start/php-indent"]
 	path = pack/plugins/start/php-indent
 	url = https://github.com/2072/PHP-Indenting-for-VIm.git
+[submodule "pack/plugins/start/intentline"]
+	path = pack/plugins/start/intentline
+	url = https://github.com/Yggdroot/indentLine.git
