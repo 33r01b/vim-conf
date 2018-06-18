@@ -78,3 +78,6 @@ set background=dark
 let g:lightline = {
       \ 'colorscheme': 'PaperColor',
       \ }
+
+"vim-gutentags
+"require universal-ctags/ctags ( https://github.com/universal-ctags/ctags/blob/master/docs/autotools.rst )
