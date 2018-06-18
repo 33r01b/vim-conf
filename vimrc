@@ -60,4 +60,7 @@ set rtp+=~/.fzf
 map ; :Files<CR>
 
 "w0rp/ale
-let b:ale_fixers = {'php': ['hack']}
+"let b:ale_fixers = {'php': ['hack']}
+let g:ale_sign_column_always = 1
+let g:ale_sign_error = '⚑'
+let g:ale_sign_warning = '⚐' 
