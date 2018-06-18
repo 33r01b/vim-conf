@@ -72,3 +72,9 @@ let g:indentLine_color_term = 239
 
 "sheerun/vim-polyglot
 let g:polyglot_disabled = ['apiblueprint', 'applescript', 'arduino', 'autohotkey', 'caddyfile']
+
+"itchyny/lightline.vim
+set background=dark
+let g:lightline = {
+      \ 'colorscheme': 'PaperColor',
+      \ }
