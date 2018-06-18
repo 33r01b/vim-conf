@@ -68,3 +68,6 @@ let g:ale_sign_warning = '⚐'
 "Yggdroot/indentLine
 let g:indentLine_char = "│"
 let g:indentLine_color_term = 239
+
+"sheerun/vim-polyglot
+let g:polyglot_disabled = ['apiblueprint', 'applescript', 'arduino', 'autohotkey', 'caddyfile']
