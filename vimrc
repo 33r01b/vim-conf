@@ -81,3 +81,11 @@ let g:lightline = {
 
 "vim-gutentags
 "require universal-ctags/ctags ( https://github.com/universal-ctags/ctags/blob/master/docs/autotools.rst )
+
+"yegappan/grep
+nnoremap <silent> <F3> :Rgrep<CR>
+"let Grep_Options = '-l'
+let Grep_Default_Filelist = '*.php'
+let Grep_Skip_Dirs = 'RCS CVS SCCS .git'
+let Grep_Skip_Files = '*~ *,v s.* *.js.min *.log'
+
