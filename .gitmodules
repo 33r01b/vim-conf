@@ -25,3 +25,13 @@
 [submodule "pack/plugins/start/grep"]
 	path = pack/plugins/start/grep
 	url = https://github.com/yegappan/grep.git
+
+[submodule "pack/plugins/start/deoplete.nvim"]
+	path = pack/plugins/start/deoplete.nvim
+	url = https://github.com/Shougo/deoplete.nvim.git
+[submodule "pack/plugins/start/nvim-yarp"]
+	path = pack/plugins/start/nvim-yarp
+	url = https://github.com/roxma/nvim-yarp.git
+[submodule "pack/plugins/start/vim-hug-neovim-rpc"]
+	path = pack/plugins/start/vim-hug-neovim-rpc
+	url = https://github.com/roxma/vim-hug-neovim-rpc.git
