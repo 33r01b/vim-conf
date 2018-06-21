@@ -83,6 +83,7 @@ let g:lightline = {
 "require universal-ctags/ctags ( https://github.com/universal-ctags/ctags/blob/master/docs/autotools.rst )
 
 "yegappan/grep
+"nnoremap <silent> <F3> :Ag<CR>
 nnoremap <silent> <F3> :Rgrep<CR>
 "let Grep_Options = '-l'
 let Grep_Default_Filelist = '*.php'
@@ -94,3 +95,6 @@ let Grep_Skip_Files = '*~ *,v s.* *.js.min *.log'
 set pyxversion=3
 let g:deoplete#enable_at_startup = 1
 
+"scrooloose/nerdtree
+map <C-n> :NERDTreeToggle<CR>
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
