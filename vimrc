@@ -83,9 +83,9 @@ let g:lightline = {
 "require universal-ctags/ctags ( https://github.com/universal-ctags/ctags/blob/master/docs/autotools.rst )
 
 "yegappan/grep
-"nnoremap <silent> <F3> :Ag<CR>
-nnoremap <silent> <F3> :Rgrep<CR>
-"let Grep_Options = '-l'
+nnoremap <silent> <F3> :Ag<CR>
+"nnoremap <silent> <F3> :Rgrep<CR>
+let Ag_Options = '-f --php --ignore "(.git)(\*.min.js)"'
 let Grep_Default_Filelist = '*.php'
 let Grep_Skip_Dirs = 'RCS CVS SCCS .git'
 let Grep_Skip_Files = '*~ *,v s.* *.js.min *.log'
@@ -97,5 +97,5 @@ let g:deoplete#enable_at_startup = 1
 
 "scrooloose/nerdtree
 map <C-n> :NERDTreeToggle<CR>
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+"autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 let NERDTreeShowHidden=1
