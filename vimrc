@@ -98,3 +98,4 @@ let g:deoplete#enable_at_startup = 1
 "scrooloose/nerdtree
 map <C-n> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+let NERDTreeShowHidden=1
