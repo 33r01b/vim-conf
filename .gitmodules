@@ -38,3 +38,6 @@
 [submodule "pack/plugins/start/nerdtree"]
 	path = pack/plugins/start/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
+[submodule "pack/plugins/start/vim-php-namespace"]
+	path = pack/plugins/start/vim-php-namespace
+	url = https://github.com/arnaud-lb/vim-php-namespace.git
