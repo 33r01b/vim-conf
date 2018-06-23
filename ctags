@@ -1,0 +1,4 @@
+# also have the following in the global ~/.ctags configuration file (gutentags uses ctags under the hood to generate the tags)
+# This way I get tags for classes, interfaces, functions, namespaces and traits, while variables and aliases are ignored to remove the noise level.
+
+--PHP-kinds=+cfit-va

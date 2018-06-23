@@ -61,10 +61,14 @@ set rtp+=~/.fzf
 map ; :Files<CR>
 
 "w0rp/ale
-"let b:ale_fixers = {'php': ['hack']}
 let g:ale_sign_column_always = 1
 let g:ale_sign_error = '⚑'
 let g:ale_sign_warning = '⚐' 
+let g:ale_linters = {
+\   'php': ['php'],
+\}
+"let g:ale_lint_on_save = 1
+"let g:ale_lint_on_text_changed = 0
 
 "Yggdroot/indentLine
 let g:indentLine_char = "│"
@@ -81,6 +85,12 @@ let g:lightline = {
 
 "vim-gutentags
 "require universal-ctags/ctags ( https://github.com/universal-ctags/ctags/blob/master/docs/autotools.rst )
+let g:gutentags_cache_dir = '~/.vim/gutentags'
+let g:gutentags_ctags_exclude = ['*.css', '*.html', '*.js', '*.json', '*.xml',
+                            \ '*.phar', '*.ini', '*.rst', '*.md',
+                            \ '*vendor/*/test*', '*vendor/*/Test*',
+                            \ '*vendor/*/fixture*', '*vendor/*/Fixture*',
+                            \ '*var/cache*', '*var/log*']
 
 "yegappan/grep
 nnoremap <silent> <F3> :Ag<CR>
@@ -94,6 +104,10 @@ let Grep_Skip_Files = '*~ *,v s.* *.js.min *.log'
 "require roxma/nvim-yarp, roxma/vim-hug-neovim-rpc, neovim (pip3 install neovim)
 set pyxversion=3
 let g:deoplete#enable_at_startup = 1
+
+"lvht/phpcd.vim
+let g:deoplete#ignore_sources = get(g:, 'deoplete#ignore_sources', {})
+let g:deoplete#ignore_sources.php = ['omni']
 
 "scrooloose/nerdtree
 map <C-n> :NERDTreeToggle<CR>
