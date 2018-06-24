@@ -93,9 +93,15 @@ let g:gutentags_ctags_exclude = ['*.css', '*.html', '*.js', '*.json', '*.xml',
                             \ '*var/cache*', '*var/log*']
 
 "yegappan/grep
-nnoremap <silent> <F3> :Ag<CR>
-"nnoremap <silent> <F3> :Rgrep<CR>
-let Ag_Options = '-f --php --skip-vcs-ignores --ignore "(.git)(\*.min.js)(tags)" --ignore-dir composer'
+"nnoremap <silent> <F3> :Ag<CR>
+"let Ag_Options = '-f --php --skip-vcs-ignores --ignore "(.git)(\*.min.js)(tags)" --ignore-dir composer'
+
+"search php
+nnoremap <silent> <F3> :let Ag_Options = '-f --php -W 100 --skip-vcs-ignores --ignore ".git" --ignore "tags" --ignore-dir composer' <bar> :Ag<CR>
+
+"search js, vue
+nnoremap <silent> <F4> :let Ag_Options = '-f --js --skip-vcs-ignores --ignore ".git" --ignore "*.min.js" --ignore "tags" --ignore-dir composer -W 100' <bar> :Ag<CR>
+
 let Grep_Default_Filelist = '*.php'
 let Grep_Skip_Dirs = 'RCS CVS SCCS .git'
 let Grep_Skip_Files = '*~ *,v s.* *.js.min *.log'
