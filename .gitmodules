@@ -41,3 +41,6 @@
 [submodule "pack/plugins/start/phpcd"]
 	path = pack/plugins/start/phpcd
 	url = https://github.com/lvht/phpcd.vim.git
+[submodule "pack/plugins/start/vim-gitbranch"]
+	path = pack/plugins/start/vim-gitbranch
+	url = https://github.com/itchyny/vim-gitbranch.git
