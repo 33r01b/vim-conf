@@ -104,7 +104,7 @@ let Grep_Skip_Files = '*~ *,v s.* *.js.min *.log'
 "require roxma/nvim-yarp, roxma/vim-hug-neovim-rpc, neovim (pip3 install neovim)
 set pyxversion=3
 let g:deoplete#enable_at_startup = 1
-call deoplete#custom#option('smart_case', v:true)
+let g:deoplete#smart_case = 1
 
 inoremap <silent><expr> <TAB>
     \ pumvisible() ? "\<C-n>" :
