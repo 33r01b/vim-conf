@@ -104,6 +104,16 @@ let Grep_Skip_Files = '*~ *,v s.* *.js.min *.log'
 "require roxma/nvim-yarp, roxma/vim-hug-neovim-rpc, neovim (pip3 install neovim)
 set pyxversion=3
 let g:deoplete#enable_at_startup = 1
+call deoplete#custom#option('smart_case', v:true)
+
+inoremap <silent><expr> <TAB>
+    \ pumvisible() ? "\<C-n>" :
+    \ <SID>check_back_space() ? "\<TAB>" :
+    \ deoplete#mappings#manual_complete()
+function! s:check_back_space() abort "{{{
+    let col = col('.') - 1
+    return !col || getline('.')[col - 1]  =~ '\s'
+endfunction"}}}
 
 "lvht/phpcd.vim
 "require run composer install in the phpcd.vim root directory.
