@@ -45,6 +45,7 @@ nnoremap <silent> <Space> :nohl<Bar>:echo<CR>
 
 au BufNewFile,BufRead *.yaml,*.yml so ~/.vim/yaml.vim
 
+nnoremap <C-T> :tabnew<CR>
 nnoremap <C-Left> :tabprevious<CR>
 nnoremap <C-Right> :tabnext<CR>
 nnoremap <silent> <A-Left> :execute 'silent! tabmove ' . (tabpagenr()-2)<CR>
