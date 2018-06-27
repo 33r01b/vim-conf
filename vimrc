@@ -35,6 +35,7 @@ set lazyredraw
 set cursorline!
 set timeoutlen=100 
 set ttimeoutlen=0
+set foldmethod=syntax
 
 let base16colorspace=256  " Access colors present in 256 colorspace
 let g:powerline_pycmd="py3"
