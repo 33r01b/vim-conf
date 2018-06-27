@@ -35,7 +35,19 @@ set lazyredraw
 set cursorline!
 set timeoutlen=100 
 set ttimeoutlen=0
-set foldmethod=syntax
+set foldmethod=indent
+
+
+set foldlevel=1
+set foldlevelstart=1
+" specifies for which commands a fold will be opened
+set foldopen=block,hor,insert,jump,mark,percent,quickfix,search,tag,undo
+
+"----TEST
+"set nocursorline
+"set nocursorcolumn
+"set norelativenumber
+"----
 
 let base16colorspace=256  " Access colors present in 256 colorspace
 let g:powerline_pycmd="py3"
@@ -184,5 +196,4 @@ let g:EasyMotion_smartcase = 1
 " JK motions: Line motions
 map <Leader>j <Plug>(easymotion-j)
 map <Leader>k <Plug>(easymotion-k)
-
 
