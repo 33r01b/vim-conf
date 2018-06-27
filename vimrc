@@ -92,6 +92,14 @@ let g:indentLine_color_term = 239
 
 "sheerun/vim-polyglot
 let g:polyglot_disabled = ['apiblueprint', 'applescript', 'arduino', 'autohotkey', 'caddyfile']
+"disabled slowly regex ( https://github.com/StanAngeloff/php.vim#configuration )
+let g:php_html_load=0
+let g:php_html_in_heredoc=0
+let g:php_html_in_nowdoc=0
+let g:php_sql_query=0
+let g:php_sql_heredoc=0
+let g:php_sql_nowdoc=0
+
 
 "itchyny/lightline.vim
 set background=dark
@@ -196,4 +204,6 @@ let g:EasyMotion_smartcase = 1
 " JK motions: Line motions
 map <Leader>j <Plug>(easymotion-j)
 map <Leader>k <Plug>(easymotion-k)
+
+
 
