@@ -66,6 +66,7 @@ map ; :Files<CR>
 let g:ale_sign_column_always = 1
 let g:ale_sign_error = '⚑'
 let g:ale_sign_warning = '⚐' 
+let g:ale_php_phpcs_standard = 'PSR2'
 let g:ale_linters = {
 \   'php': ['phpcs'],
 \}
