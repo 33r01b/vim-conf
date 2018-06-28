@@ -90,7 +90,7 @@ let g:ale_linters = {
 let g:indentLine_char = "│"
 let g:indentLine_color_term = 239
 
-"sheerun/vim-polyglot
+"--sheerun/vim-polyglot
 let g:polyglot_disabled = ['apiblueprint', 'applescript', 'arduino', 'autohotkey', 'caddyfile']
 "disabled slowly regex ( https://github.com/StanAngeloff/php.vim#configuration )
 let g:php_html_load=0
@@ -101,7 +101,7 @@ let g:php_sql_heredoc=0
 let g:php_sql_nowdoc=0
 
 
-"itchyny/lightline.vim
+"--itchyny/lightline.vim
 set background=dark
 let g:lightline = {
       \ 'colorscheme': 'PaperColor',
@@ -124,7 +124,7 @@ function! LightlineFilename()
   return winwidth(0) > 95 ? expand('%') : filename
 endfunction
 
-"vim-gutentags
+"--vim-gutentags
 "require universal-ctags/ctags ( https://github.com/universal-ctags/ctags/blob/master/docs/autotools.rst )
 let g:gutentags_cache_dir = '~/.vim/gutentags'
 let g:gutentags_ctags_exclude = ['*.css', '*.html', '*.js', '*.json', '*.xml',
@@ -133,22 +133,20 @@ let g:gutentags_ctags_exclude = ['*.css', '*.html', '*.js', '*.json', '*.xml',
                             \ '*vendor/*/fixture*', '*vendor/*/Fixture*',
                             \ '*var/cache*', '*var/log*']
 
-"yegappan/grep
+"--yegappan/grep
 let Ag_Options = '-f --skip-vcs-ignores --ignore ".git" --ignore "*.min.js" --ignore "tags" --ignore-dir composer -W 100'
 
 "search *
-nnoremap <silent> <F2> :Ag <CR>
-
+nnoremap <silent> <F2> :Ag<CR>
 "search php
 nnoremap <silent> <F3> :Ag --php <CR>
-
 "search js, vue
 nnoremap <silent> <F4> :Ag --js <CR>
 
 let Grep_Skip_Dirs = 'RCS CVS SCCS .git'
 let Grep_Skip_Files = '*~ *,v s.* *.js.min *.log'
 
-"Shougo/deoplete.nvim
+"--Shougo/deoplete.nvim
 "require roxma/nvim-yarp, roxma/vim-hug-neovim-rpc, neovim (pip3 install neovim)
 set pyxversion=3
 let g:deoplete#enable_at_startup = 1
@@ -163,17 +161,17 @@ function! s:check_back_space() abort "{{{
     return !col || getline('.')[col - 1]  =~ '\s'
 endfunction"}}}
 
-"lvht/phpcd.vim
+"--lvht/phpcd.vim
 "require run composer install in the phpcd.vim root directory.
 let g:deoplete#ignore_sources = get(g:, 'deoplete#ignore_sources', {})
 let g:deoplete#ignore_sources.php = ['omni']
 
-"scrooloose/nerdtree
+"--scrooloose/nerdtree
 map <C-n> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 let NERDTreeShowHidden=1
 
-"arnaud-lb/vim-php-namespace
+"--arnaud-lb/vim-php-namespace
 " \u - Automatically adds the corresponding use statement for the name under the cursor
 function! IPhpInsertUse()
     call PhpInsertUse()
@@ -185,7 +183,7 @@ autocmd FileType php noremap <Leader>u :call PhpInsertUse()<CR>
 set tags+=tags,tags.vendors
 let g:php_namespace_sort_after_insert = 1
 
-"easymotion/vim-easymotion
+"--easymotion/vim-easymotion
 let g:EasyMotion_do_mapping = 0 " Disable default mappings
 map  / <Plug>(easymotion-sn)
 map <Leader> <Plug>(easymotion-prefix)
@@ -205,5 +203,6 @@ let g:EasyMotion_smartcase = 1
 map <Leader>j <Plug>(easymotion-j)
 map <Leader>k <Plug>(easymotion-k)
 
-
+"--tpope/vim-commentary
+"https://github.com/tpope/vim-commentary/blob/master/doc/commentary.txt
 
