@@ -38,6 +38,7 @@ set ttimeoutlen=0
 set foldmethod=indent
 set mousehide
 set scrolloff=8
+set backspace=2
 
 
 set foldlevel=1
@@ -212,3 +213,23 @@ map <Leader>k <Plug>(easymotion-k)
 
 "--majutsushi/tagbar
 nmap <F8> :TagbarToggle<CR>
+
+"--arnaud-lb/vim-php-namespace
+"I have the following mapping to insert the use statements:
+function! IPhpInsertUse()
+    call PhpInsertUse()
+    call feedkeys('a',  'n')
+endfunction
+autocmd FileType php inoremap <Leader>u <Esc>:call IPhpInsertUse()<CR>
+autocmd FileType php noremap <Leader>u :call PhpInsertUse()<CR>
+
+"and this one for expanding classes to get their fully qualified names:
+function! IPhpExpandClass()
+    call PhpExpandClass()
+    call feedkeys('a', 'n')
+endfunction
+autocmd FileType php inoremap <Leader>e <Esc>:call IPhpExpandClass()<CR>
+autocmd FileType php noremap <Leader>e :call PhpExpandClass()<CR>
+
+"I also let it to automatically sort the namespaces after inserting:
+let g:php_namespace_sort_after_insert=1
