@@ -36,6 +36,8 @@ set cursorline!
 set timeoutlen=100 
 set ttimeoutlen=0
 set foldmethod=indent
+set mousehide
+set scrolloff=8
 
 
 set foldlevel=1
@@ -81,7 +83,7 @@ let g:ale_sign_error = '⚑'
 let g:ale_sign_warning = '⚐' 
 let g:ale_php_phpcs_standard = 'PSR2'
 let g:ale_linters = {
-\   'php': ['phpcs'],
+\   'php': ['phpcs', 'php'],
 \}
 "let g:ale_lint_on_save = 1
 "let g:ale_lint_on_text_changed = 0
@@ -106,8 +108,10 @@ set background=dark
 let g:lightline = {
       \ 'colorscheme': 'PaperColor',
       \ 'active': {
-      \   'left': [ [ 'mode', 'paste' ],
-      \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
+      \   'left': [ 
+      \     [ 'mode', 'paste' ],
+      \     [ 'gitbranch', 'readonly', 'filename', 'modified' ] 
+      \   ],
       \ },
       \ 'component_function': {
       \   'gitbranch': 'gitbranch#name',
@@ -206,3 +210,5 @@ map <Leader>k <Plug>(easymotion-k)
 "--tpope/vim-commentary
 "https://github.com/tpope/vim-commentary/blob/master/doc/commentary.txt
 
+"--majutsushi/tagbar
+nmap <F8> :TagbarToggle<CR>

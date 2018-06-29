@@ -53,3 +53,6 @@
 [submodule "pack/plugins/start/vim-commentary"]
 	path = pack/plugins/start/vim-commentary
 	url = https://github.com/tpope/vim-commentary.git
+[submodule "pack/plugins/start/tagbar"]
+	path = pack/plugins/start/tagbar
+	url = https://github.com/majutsushi/tagbar.git
