@@ -84,8 +84,10 @@ let g:ale_sign_error = '⚑'
 let g:ale_sign_warning = '⚐' 
 let g:ale_php_phpcs_standard = 'PSR2'
 let g:ale_linters = {
-\   'php': ['phpcs', 'php'],
+\   'php': ['phpcs', 'phpmd'],
 \}
+let g:ale_php_phpmd_ruleset = 'cleancode,codesize,controversial,design,naming,unusedcode'
+
 "let g:ale_lint_on_save = 1
 "let g:ale_lint_on_text_changed = 0
 
@@ -233,3 +235,4 @@ autocmd FileType php noremap <Leader>e :call PhpExpandClass()<CR>
 
 "I also let it to automatically sort the namespaces after inserting:
 let g:php_namespace_sort_after_insert=1
+
