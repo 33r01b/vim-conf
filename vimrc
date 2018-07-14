@@ -37,9 +37,11 @@ set timeoutlen=100
 set ttimeoutlen=0
 set foldmethod=indent
 set mousehide
-set scrolloff=8
+set scrolloff=10
 set backspace=2
-
+set ttyfast
+set regexpengine=1
+set synmaxcol=200
 
 set foldlevel=1
 set foldlevelstart=1
@@ -102,6 +104,7 @@ let g:indentLine_color_term = 239
 "--sheerun/vim-polyglot
 let g:polyglot_disabled = ['apiblueprint', 'applescript', 'arduino', 'autohotkey', 'caddyfile']
 "disabled slowly regex ( https://github.com/StanAngeloff/php.vim#configuration )
+let g:vue_disable_pre_processors = 1
 let g:php_html_load=0
 let g:php_html_in_heredoc=0
 let g:php_html_in_nowdoc=0
@@ -158,7 +161,7 @@ let Grep_Skip_Dirs = 'RCS CVS SCCS .git'
 let Grep_Skip_Files = '*~ *,v s.* *.js.min *.log'
 
 "--Shougo/deoplete.nvim
-"require roxma/nvim-yarp, roxma/vim-hug-neovim-rpc, neovim (pip3 install neovim)
+"require apt install vim-gtk, apt install python3-pip, roxma/nvim-yarp, roxma/vim-hug-neovim-rpc, neovim (pip3 install neovim)
 set pyxversion=3
 let g:deoplete#enable_at_startup = 1
 let g:deoplete#smart_case = 1
