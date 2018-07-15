@@ -78,6 +78,7 @@ set updatetime=100
 "require junegunn/fzf ( https://github.com/junegunn/fzf#installation )
 set rtp+=~/.fzf
 map ; :Files<CR>
+let g:fzf_layout = { 'down': '~15%' }
 
 "w0rp/ale
 "require apt install php-codesniffer
