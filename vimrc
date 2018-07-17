@@ -48,6 +48,12 @@ set foldlevelstart=1
 " specifies for which commands a fold will be opened
 set foldopen=block,hor,insert,jump,mark,percent,quickfix,search,tag,undo
 
+set diffopt+=iwhite " Ignore whitespace whilst diffing
+
+" Using tabless https://www.npmjs.com/package/standard
+autocmd Filetype javascript setlocal sw=2 sts=2 expandtab
+autocmd Filetype vue setlocal sw=2 sts=2 expandtab
+
 "----TEST
 "set nocursorline
 "set nocursorcolumn
