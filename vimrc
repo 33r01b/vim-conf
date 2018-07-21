@@ -169,7 +169,8 @@ let Grep_Skip_Files = '*~ *,v s.* *.js.min *.log'
 
 "--Shougo/deoplete.nvim
 "require apt install vim-gtk, apt install python3-pip, roxma/nvim-yarp, roxma/vim-hug-neovim-rpc, neovim (pip3 install neovim)
-"set pyxversion=2
+"pip3 install greenlet==0.4.10
+set pyxversion=3
 let g:deoplete#enable_at_startup = 1
 let g:deoplete#smart_case = 1
 
