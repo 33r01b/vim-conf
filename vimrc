@@ -255,3 +255,4 @@ autocmd FileType php noremap <Leader>e :call PhpExpandClass()<CR>
 "I also let it to automatically sort the namespaces after inserting:
 let g:php_namespace_sort_after_insert=1
 
+colorscheme default
