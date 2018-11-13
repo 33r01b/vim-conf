@@ -42,6 +42,10 @@ set backspace=2
 set ttyfast
 set regexpengine=1
 set synmaxcol=200
+autocmd FileType make setlocal noexpandtab
+
+nmap <leader>l :set list!<CR>
+set listchars=tab:▸\ ,eol:¬
 
 set foldlevel=1
 set foldlevelstart=1
@@ -255,4 +259,7 @@ autocmd FileType php noremap <Leader>e :call PhpExpandClass()<CR>
 "I also let it to automatically sort the namespaces after inserting:
 let g:php_namespace_sort_after_insert=1
 
-colorscheme default
+
+"Invisible character colors
+highlight NonText guifg=#4a4a59
+highlight SpecialKey guifg=#4a4a59
