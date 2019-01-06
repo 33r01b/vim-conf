@@ -236,8 +236,6 @@ map <Leader>k <Plug>(easymotion-k)
 "--tpope/vim-commentary
 "https://github.com/tpope/vim-commentary/blob/master/doc/commentary.txt
 
-"--majutsushi/tagbar
-nmap <F8> :TagbarToggle<CR>
 
 "--arnaud-lb/vim-php-namespace
 "I have the following mapping to insert the use statements:
@@ -263,3 +261,9 @@ let g:php_namespace_sort_after_insert=1
 "Invisible character colors
 highlight NonText guifg=#4a4a59
 highlight SpecialKey guifg=#4a4a59
+
+"colorscheme zmrok
+colorscheme default
+
+"--majutsushi/tagbar
+nmap <F8> :TagbarToggle<CR>
