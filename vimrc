@@ -127,9 +127,13 @@ let g:php_sql_query=0
 let g:php_sql_heredoc=0
 let g:php_sql_nowdoc=0
 
-
 "--itchyny/lightline.vim
-set background=dark
+" define initial background (light/dark)
+
+" define color scheme
+"colorscheme solarized
+colorscheme default
+"set background=dark
 let g:lightline = {
       \ 'colorscheme': 'PaperColor',
       \ 'active': {
@@ -262,8 +266,9 @@ let g:php_namespace_sort_after_insert=1
 highlight NonText guifg=#4a4a59
 highlight SpecialKey guifg=#4a4a59
 
-"colorscheme zmrok
-colorscheme default
 
 "--majutsushi/tagbar
 nmap <F8> :TagbarToggle<CR>
+
+highlight ColorColumn ctermbg=0
+
