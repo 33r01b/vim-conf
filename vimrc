@@ -102,7 +102,8 @@ let g:ale_sign_warning = '⚐'
 let g:ale_php_phpcs_standard = 'PSR2'
 let g:ale_linters = {
 \   'php': ['php', 'phpmd', 'phpcs'],
-\   'python': ['flake8', 'pylint']
+\   'python': ['flake8', 'pylint'],
+\   'c': ['gcc'],
 \}
 let g:ale_php_phpmd_ruleset = 'cleancode,codesize,controversial,design,naming,unusedcode'
 " Disable warnings about trailing whitespace for Python files.
@@ -267,3 +268,7 @@ colorscheme default
 
 "--majutsushi/tagbar
 nmap <F8> :TagbarToggle<CR>
+
+
+"--Rip-Rip/clang_complete
+let g:clang_library_path='/usr/lib/libclang.so'
