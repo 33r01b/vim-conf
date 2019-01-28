@@ -198,6 +198,7 @@ endfunction"}}}
 
 ""--Rip-Rip/clang_complete
 let g:clang_library_path='/usr/lib/libclang.so'
+set completeopt-=preview
 
 "--lvht/phpcd.vim
 "require run composer install in the phpcd.vim root directory.
