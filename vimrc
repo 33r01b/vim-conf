@@ -171,7 +171,7 @@ nnoremap <silent> <F2> :Ag<CR>
 "search php
 nnoremap <silent> <F3> :Ag --php <CR>
 "search js, vue
-nnoremap <silent> <F4> :Ag --js <CR>
+"nnoremap <silent> <F4> :Ag --js <CR>
 
 let Grep_Skip_Dirs = 'RCS CVS SCCS .git'
 let Grep_Skip_Files = '*~ *,v s.* *.js.min *.log'
@@ -272,3 +272,6 @@ nmap <F8> :TagbarToggle<CR>
 
 "--Rip-Rip/clang_complete
 let g:clang_library_path='/usr/lib/libclang.so'
+
+set makeprg=make\ -C\ ../build\ -j9
+nnoremap <F4> :make!<cr>
