@@ -90,7 +90,7 @@ set updatetime=100
 
 "junegunn/fzf.vim
 "require junegunn/fzf ( https://github.com/junegunn/fzf#installation )
-set rtp+=~/.fzf
+set rtp+=/usr/local/opt/fzf
 map ; :Files<CR>
 let g:fzf_layout = { 'down': '~15%' }
 
