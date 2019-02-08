@@ -275,3 +275,5 @@ let g:clang_library_path='/usr/lib/libclang.so'
 
 set makeprg=make\ -C\ ../build\ -j9
 nnoremap <F4> :make!<cr>
+
+highlight ColorColumn ctermbg=black
