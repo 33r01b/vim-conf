@@ -277,3 +277,15 @@ set makeprg=make\ -C\ ../build\ -j9
 nnoremap <F4> :make!<cr>
 
 highlight ColorColumn ctermbg=black
+
+let g:vdebug_keymap = {
+\    "run" : "<Leader>/",
+\    "run_to_cursor" : "<Down>",
+\    "step_over" : "<Up>",
+\    "step_into" : "<Left>",
+\    "step_out" : "<Right>",
+\    "close" : "q",
+\    "detach" : "<F7>",
+\    "set_breakpoint" : "<Leader>s",
+\    "eval_visual" : "<Leader>e"
+\}

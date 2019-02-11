@@ -65,3 +65,9 @@
 [submodule "pack/plugins/start/auto-pairs"]
 	path = pack/plugins/start/auto-pairs
 	url = git@github.com:jiangmiao/auto-pairs.git
+[submodule "pack/plugins/start/vdebug"]
+	path = pack/plugins/start/vdebug
+	url = https://github.com/vim-vdebug/vdebug.git
+[submodule "pack/plugins/start/vim-localvimrc"]
+	path = pack/plugins/start/vim-localvimrc
+	url = https://github.com/embear/vim-localvimrc.git
