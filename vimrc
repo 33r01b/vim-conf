@@ -51,7 +51,7 @@ set foldlevel=1
 set foldlevelstart=1
 " specifies for which commands a fold will be opened
 set foldopen=block,hor,insert,jump,mark,percent,quickfix,search,tag,undo
-autocmd BufEnter *\[VimPipe\]* :setlocal nofen "disable folding for VimPipe
+autocmd BufEnter *\[VimPipe\] :setlocal nofen "disable folding for VimPipe
 
 set diffopt+=iwhite " Ignore whitespace whilst diffing
 
