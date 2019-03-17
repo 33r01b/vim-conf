@@ -71,3 +71,6 @@
 [submodule "pack/plugins/start/vim-localvimrc"]
 	path = pack/plugins/start/vim-localvimrc
 	url = https://github.com/embear/vim-localvimrc.git
+[submodule "pack/plugins/start/vim-pipe"]
+	path = pack/plugins/start/vim-pipe
+	url = https://github.com/krisajenkins/vim-pipe.git
