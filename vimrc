@@ -291,3 +291,5 @@ let g:vdebug_keymap = {
 \    "set_breakpoint" : "<Leader>s",
 \    "eval_visual" : "<Leader>e"
 \}
+
+let g:localvimrc_whitelist=['/home/'. $USER .'/langs/php/']
