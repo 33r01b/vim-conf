@@ -42,6 +42,7 @@ set backspace=2
 set ttyfast
 set regexpengine=1
 set synmaxcol=200
+set switchbuf+=usetab,newtab
 autocmd FileType make setlocal noexpandtab
 
 nmap <leader>l :set list!<CR>
