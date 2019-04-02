@@ -43,6 +43,7 @@ set ttyfast
 set regexpengine=1
 set synmaxcol=200
 set switchbuf+=usetab,newtab
+set shell=/usr/bin/zsh
 autocmd FileType make setlocal noexpandtab
 
 nmap <leader>l :set list!<CR>
