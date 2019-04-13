@@ -10,6 +10,7 @@ nnoremap <silent> <A-Right> :execute 'silent! tabmove ' . (tabpagenr()+1)<CR>
 " Plugins
 source $HOME/.vim/etc/plugins/navigation/fzf.vim
 source $HOME/.vim/etc/plugins/navigation/grep.vim
+source $HOME/.vim/etc/plugins/navigation/ale.vim
 source $HOME/.vim/etc/plugins/navigation/nerdtree.vim
 source $HOME/.vim/etc/plugins/navigation/easymotion.vim
 source $HOME/.vim/etc/plugins/navigation/tagbar.vim

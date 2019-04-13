@@ -3,10 +3,8 @@
 let Ag_Options = '-f --skip-vcs-ignores --ignore ".git" --ignore "*.min.js" --ignore "tags" --ignore-dir composer -W 100'
 "let Rg_Options = '--ignore-case --follow --no-ignore --hidden -M100'
 
-"search normal
-nnoremap <silent> <F2> :exe ":Rg --follow --no-ignore --hidden -M100")<CR>
 "search ignore case
-nnoremap <silent> <F3> :exe ":Rg --ignore-case --follow --no-ignore --hidden -M100"<CR>
+nnoremap <silent> <F2> :exe ":Rg --ignore-case --follow --no-ignore --hidden -M100"<CR>
 "search js, vue
 "nnoremap <silent> <F4> :Ag --js <CR>
 

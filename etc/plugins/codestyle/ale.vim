@@ -19,4 +19,3 @@ let g:ale_python_pylint_options = '--disable=missing-docstring'
 
 let g:ale_lint_on_save = 1
 let g:ale_lint_on_text_changed = 0
-nnoremap <silent> <F4> :ALEGoToDefinitionInTab<CR>
