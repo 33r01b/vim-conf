@@ -168,12 +168,12 @@ let g:gutentags_ctags_exclude = ['*.css', '*.html', '*.js', '*.json', '*.xml',
 
 "--yegappan/grep
 let Ag_Options = '-f --skip-vcs-ignores --ignore ".git" --ignore "*.min.js" --ignore "tags" --ignore-dir composer -W 100'
-let Rg_Options = '--ignore-case --follow --no-ignore --hidden -M100'
+"let Rg_Options = '--ignore-case --follow --no-ignore --hidden -M100'
 
-"search ripgreg
-nnoremap <silent> <F2> :Rg<CR>
-"search the_silver_searcher
-nnoremap <silent> <F3> :Ag<CR>
+"search normal
+nnoremap <silent> <F2> :exe ":Rg --follow --no-ignore --hidden -M100")<CR>
+"search ignore case
+nnoremap <silent> <F3> :exe ":Rg --ignore-case --follow --no-ignore --hidden -M100"<CR>
 "search js, vue
 "nnoremap <silent> <F4> :Ag --js <CR>
 
