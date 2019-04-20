@@ -5,15 +5,39 @@
 let g:ale_sign_column_always = 1
 let g:ale_sign_error = '⚑'
 let g:ale_sign_warning = '⚐' 
-let g:ale_php_phpcs_standard = 'PSR2'
+
+"{{{phpcs
+let g:ale_php_phpcs_use_global = 1
+let g:ale_php_phpcs_standard = 'PSR1,PSR2'
+let s:phpcs_ruleset_path = getcwd() . '/../g:ruleset.xml'
+let s:phpcs_exutable_path =  $HOME . '/bin/phpcs'
+
+if g:ale_php_phpcs_use_global && !empty(glob(s:phpcs_ruleset_path))
+    let g:ale_php_phpcs_standard .= ',' . s:phpcs_ruleset_path
+endif
+
+if !empty(glob(s:phpcs_exutable_path))
+    let g:ale_php_phpcs_executable = s:phpcs_exutable_path
+endif
+"}}}
+
+"{{{phpstan
+let g:ale_php_phpstan_use_global = 1
+let g:ale_php_phpstan_executable = $HOME . '/bin/phpstan'
+let g:ale_php_phpstan_configuration = getcwd() . '/../phpstan.neon'
+let g:ale_php_phpstan_level = 7
+"}}}
+
 let g:ale_linters = {
-\   'php': ['php', 'langserver', 'phpcs'], 
+\   'php': ['php', 'langserver', 'phpstan', 'phpcs'], 
 \   'python': ['flake8', 'pylint'],
 \   'c': ['gcc'],
 \}
+
 "'php', 'phpmd', 'phpcs'
-let g:ale_php_phpmd_ruleset = 'cleancode,codesize,controversial,design,naming,unusedcode'
+"let g:ale_php_phpmd_ruleset = 'cleancode,codesize,controversial,design,naming,unusedcode'
 " Disable warnings about trailing whitespace for Python files.
+
 let b:ale_warn_about_trailing_whitespace = 0
 let g:ale_python_pylint_options = '--disable=missing-docstring'
 
