@@ -1,0 +1,63 @@
+snippet pcl "PHP Class" b
+<?php
+
+declare(strict_types=1);
+
+namespace $1;
+
+class `!p snip.rv = snip.basename`$2
+{
+    $0
+}
+endsnippet
+
+snippet pacl "PHP Abstract Class" b
+<?php
+
+declare(strict_types=1);
+
+namespace $1;
+
+abstract class `!p snip.rv = snip.basename`$2
+{
+    $0
+}
+endsnippet
+
+snippet pif "PHP Interface" b
+<?php
+
+declare(strict_types=1);
+
+namespace $1;
+
+interface `!p snip.rv = snip.basename`
+{
+    $0
+}
+endsnippet
+
+snippet pfeh "foreach" b
+foreach ($1 as $2) {
+    $0
+}
+endsnippet
+
+snippet pfor "for" b
+for ($i = 0; $i < $1; $i++) {
+    $0
+}
+endsnippet
+
+snippet pfn "function" b
+$1 function $2($3): $4
+{
+    $0
+}
+endsnippet
+
+snippet pafn "anonymous function" b
+function $2($3): $4 {
+    $0
+}
+endsnippet
