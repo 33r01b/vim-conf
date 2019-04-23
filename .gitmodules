@@ -62,9 +62,6 @@
 [submodule "pack/plugins/start/clang_complete"]
 	path = pack/plugins/start/clang_complete
 	url = https://github.com/Rip-Rip/clang_complete.git
-[submodule "pack/plugins/start/auto-pairs"]
-	path = pack/plugins/start/auto-pairs
-	url = git@github.com:jiangmiao/auto-pairs.git
 [submodule "pack/plugins/start/vdebug"]
 	path = pack/plugins/start/vdebug
 	url = https://github.com/vim-vdebug/vdebug.git
