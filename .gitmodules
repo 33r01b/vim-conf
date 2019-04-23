@@ -26,9 +26,6 @@
 	path = pack/plugins/start/grep
 	url = https://github.com/yegappan/grep.git
 
-[submodule "pack/plugins/start/deoplete.nvim"]
-	path = pack/plugins/start/deoplete.nvim
-	url = https://github.com/Shougo/deoplete.nvim.git
 [submodule "pack/plugins/start/nvim-yarp"]
 	path = pack/plugins/start/nvim-yarp
 	url = https://github.com/roxma/nvim-yarp.git
@@ -110,3 +107,6 @@
 [submodule "pack/plugins/start/pear-tree"]
 	path = pack/plugins/start/pear-tree
 	url = https://github.com/tmsvg/pear-tree.git
+[submodule "pack/plugins/start/vim-surround"]
+	path = pack/plugins/start/vim-surround
+	url = https://github.com/tpope/vim-surround.git
