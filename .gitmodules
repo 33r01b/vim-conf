@@ -107,3 +107,6 @@
 [submodule "pack/plugins/start/ncm2-syntax"]
 	path = pack/plugins/start/ncm2-syntax
 	url = https://github.com/ncm2/ncm2-syntax
+[submodule "pack/plugins/start/pear-tree"]
+	path = pack/plugins/start/pear-tree
+	url = https://github.com/tmsvg/pear-tree.git

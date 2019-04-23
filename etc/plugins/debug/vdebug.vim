@@ -6,7 +6,7 @@ let g:vdebug_keymap = {
 \    "step_over" : "<S-Up>",
 \    "step_into" : "<S-Left>",
 \    "step_out" : "<S-Right>",
-\    "close" : "q",
+\    "close" : "<C-Q>",
 \    "detach" : "<F7>",
 \    "set_breakpoint" : "<Leader>s",
 \    "eval_visual" : "<Leader>e"

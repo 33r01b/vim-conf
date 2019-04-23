@@ -35,7 +35,7 @@ set relativenumber
 set re=1
 set ttyfast
 set lazyredraw
-set cursorline!
+"set cursorline!
 set timeoutlen=100 
 set ttimeoutlen=0
 set foldmethod=indent
@@ -62,3 +62,7 @@ set directory=~/.vim/.swp//
 source $HOME/.vim/etc/plugins/settings/vimpipe.vim
 source $HOME/.vim/etc/plugins/settings/vim-gitgutter.vim
 source $HOME/.vim/etc/plugins/settings/lvimrc.vim
+
+
+nmap ]h <Plug>GitGutterNextHunk
+nmap [h <Plug>GitGutterPrevHunk

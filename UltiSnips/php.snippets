@@ -150,15 +150,16 @@ private static function ${1:name}(${2:int $param}): ${3:void}
 endsnippet
 
 snippet lambda "anonymous function" b
-function (${1:array} $${2:param}): ${3:$1} {
-    $0
+${1:static }function (${2:array} $${3:param}): ${4:$2} {
+    ${0:${VISUAL}}
 }
 endsnippet
 
 snippet fu "Function snip" b
 function ${1:name}(${2:array} $${3:param}): ${4:$2} {
 {
-    $0
+    ${0:${VISUAL}}
+0
 }
 endsnippet
 
@@ -178,16 +179,62 @@ endsnippet
 
 snippet foreach "foreach" b
 foreach ($1 as $2) {
-    $0
+    ${0:${VISUAL}}
 }
 endsnippet
 
 snippet for "for" b
 for ($i = 0; $i < $1; $i++) {
-    $0
+    ${0:${VISUAL}}
 }
 endsnippet
 
+snippet try "try catch" b
+try {
+    ${0:${VISUAL}}
+} catch (${1:Exception}) {
+}
+endsnippet
+
+snippet switch "switch" b
+switch ($${1:variable}) {
+    case '${2:value}':
+        ${3}
+        break;
+    ${0:${VISUAL}}
+    default:
+        ${4}
+        break;
+}
+endsnippet
+
+snippet switch "switch" b
+case '${1:value}':
+    ${0:${VISUAL}}
+    break;
+endsnippet
+
+snippet if "if" b
+if ($1) {
+    ${0:${VISUAL}}
+}
+endsnippet
+
+snippet el "else" b
+else {
+    ${0:${VISUAL}}
+}
+endsnippet
+
+snippet eif "elseif" b
+elseif ($1) {
+    ${0:${VISUAL}}
+}
+endsnippet
+
+snippet dd "dump" b
+dd(${1:${VISUAL}}); 
+endsnippet
 
 # PHPUnit snippets
 
