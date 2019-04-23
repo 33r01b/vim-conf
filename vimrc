@@ -12,8 +12,8 @@ colorscheme default
 highlight ColorColumn ctermbg=black
 highlight NonText guifg=#4a4a59
 highlight SpecialKey guifg=#4a4a59
-highlight Folded ctermfg=242 ctermbg=0 guifg=gold guibg=grey30
-highlight FoldColumn ctermfg=242 ctermbg=0 guifg=tan guibg=grey30 
-highlight SpellBad term=reverse ctermbg=224 gui=undercurl guisp=Black
+highlight Folded ctermfg=242 ctermbg=NONE guifg=gold guibg=grey30
+highlight FoldColumn ctermfg=242 ctermbg=NONE guifg=tan guibg=grey30 
+highlight SpellBad cterm=underline term=reverse ctermbg=224 gui=undercurl guisp=Black
 
 hi CursorLine   cterm=NONE ctermbg=0 guibg=darkred guifg=white
