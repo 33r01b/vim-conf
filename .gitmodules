@@ -22,9 +22,6 @@
 [submodule "pack/plugins/start/lightline.vim"]
 	path = pack/plugins/start/lightline.vim
 	url = https://github.com/itchyny/lightline.vim
-[submodule "pack/plugins/start/grep"]
-	path = pack/plugins/start/grep
-	url = https://github.com/yegappan/grep.git
 
 [submodule "pack/plugins/start/nvim-yarp"]
 	path = pack/plugins/start/nvim-yarp
