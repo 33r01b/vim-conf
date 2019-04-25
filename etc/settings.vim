@@ -5,7 +5,7 @@ set number
 set ruler
 set spell
 set spelllang=en,ru
-set guiheadroom=0
+"set guiheadroom=0
 set laststatus=2
 set fileencodings=utf8,cp1251
 set encoding=utf8

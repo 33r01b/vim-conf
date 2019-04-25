@@ -16,7 +16,7 @@ let g:bufExplorerSplitRight=1
 
 " Plugins
 source $HOME/.vim/etc/plugins/navigation/fzf.vim
-source $HOME/.vim/etc/plugins/navigation/grep.vim
+"source $HOME/.vim/etc/plugins/navigation/grep.vim
 source $HOME/.vim/etc/plugins/navigation/ale.vim
 source $HOME/.vim/etc/plugins/navigation/nerdtree.vim
 source $HOME/.vim/etc/plugins/navigation/easymotion.vim
@@ -27,5 +27,4 @@ noremap <C-l> 4l
 noremap <C-h> 4h
 noremap <C-j> 4j
 noremap <C-k> 4k
-
 
