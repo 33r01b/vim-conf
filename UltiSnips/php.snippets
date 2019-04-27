@@ -241,6 +241,8 @@ endsnippet
 snippet testcase "class XYZTest extends \PHPUnit_Framework_TestCase { ... }"
 <?php
 
+declare(strict_types=1);
+
 namespace `!p
 relpath = os.path.relpath(path)
 m = re.search(r'[A-Z].+(?=/)', relpath)
@@ -263,6 +265,8 @@ endsnippet
 snippet testcase6 "class XYZTest extends TestCase { ... }"
 <?php
 
+declare(strict_types=1);
+
 namespace `!p
 relpath = os.path.relpath(path)
 m = re.search(r'[A-Z].+(?=/)', relpath)
@@ -271,6 +275,31 @@ if m:
 `;
 
 use PHPUnit\Framework\TestCase;
+
+class `!p
+snip.rv = re.match(r'.*(?=\.)', fn).group()
+` extends TestCase
+{
+	public function test$1()
+	{
+		${0:${VISUAL}}
+	}
+}
+endsnippet
+
+snippet testcaseloc "class XYZTest extends TestCase { ... }"
+<?php
+
+declare(strict_types=1);
+
+namespace `!p
+relpath = os.path.relpath(path)
+m = re.search(r'[A-Z].+(?=/)', relpath)
+if m:
+	snip.rv = m.group().replace('/', '\\')
+`;
+
+use Tests\TestCase;
 
 class `!p
 snip.rv = re.match(r'.*(?=\.)', fn).group()

@@ -29,14 +29,10 @@ let g:ale_php_phpstan_level = 7
 "}}}
 
 let g:ale_linters = {
-\   'php': ['php', 'langserver', 'phpstan', 'phpcs'], 
+\   'php': ['php', 'phpstan', 'phpcs'], 
 \   'python': ['flake8', 'pylint'],
 \   'c': ['gcc'],
 \}
-
-"'php', 'phpmd', 'phpcs'
-"let g:ale_php_phpmd_ruleset = 'cleancode,codesize,controversial,design,naming,unusedcode'
-" Disable warnings about trailing whitespace for Python files.
 
 let b:ale_warn_about_trailing_whitespace = 0
 let g:ale_python_pylint_options = '--disable=missing-docstring'
