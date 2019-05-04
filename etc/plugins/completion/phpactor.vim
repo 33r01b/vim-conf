@@ -10,7 +10,7 @@ let g:phpactorOmniError = v:true
 " CTRL-C doesn't trigger the InsertLeave autocmd . map to <ESC> instead.
 inoremap <c-c> <ESC>
 
-autocmd FileType php,inc nnoremap <silent> <F3> :call phpactor#GotoDefinition()<CR>
+autocmd FileType php,inc nnoremap <silent> <F3> :tab split \| :call phpactor#GotoDefinition()<CR>
 autocmd FileType php,inc nnoremap <silent> <F4> :call phpactor#FindReferences()<CR>
 autocmd FileType php,inc nnoremap <silent> <F5> :call phpactor#ContextMenu()<CR>
 " Include use statement

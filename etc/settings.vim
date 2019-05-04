@@ -66,3 +66,5 @@ source $HOME/.vim/etc/plugins/settings/lvimrc.vim
 
 nmap ]h <Plug>GitGutterNextHunk
 nmap [h <Plug>GitGutterPrevHunk
+
+map <Space> <Leader>

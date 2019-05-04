@@ -1,4 +1,5 @@
-nnoremap <silent> <Space> :nohl<Bar>:echo<CR>
+" search
+nnoremap <silent> <S-Space> :nohl<Bar>:echo<CR>
 
 " tab
 nnoremap <C-T> :tabnew<CR>
@@ -25,4 +26,3 @@ noremap <C-l> 4l
 noremap <C-h> 4h
 noremap <C-j> 4j
 noremap <C-k> 4k
-
