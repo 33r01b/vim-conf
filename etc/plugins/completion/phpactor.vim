@@ -20,4 +20,4 @@ autocmd FileType php,inc nmap <Leader>h :call phpactor#Hover()<CR>
 " Invoke the navigation menu
 autocmd FileType php,inc nmap <Leader>n :call phpactor#Navigate()<CR>
 " TODO Transform the classes in the current file 
-autocmd FileType php,inc !command transform :call phpactor#Transform()<CR>
+"autocmd FileType php,inc nmap <Leader>t !command transform :call phpactor#Transform()<CR>

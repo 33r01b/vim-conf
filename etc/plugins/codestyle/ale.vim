@@ -29,10 +29,12 @@ let g:ale_php_phpstan_level = 7
 "}}}
 
 let g:ale_linters = {
-\   'php': ['php', 'phpstan', 'langserver', 'phpcs'], 
+\   'php': ['php', 'phpstan', 'phpcs'], 
 \   'python': ['flake8', 'pylint'],
 \   'c': ['gcc'],
 \}
+
+"   'php': ['php', 'phpstan', 'langserver', 'phpcs'], 
 
 let b:ale_warn_about_trailing_whitespace = 0
 let g:ale_python_pylint_options = '--disable=missing-docstring'

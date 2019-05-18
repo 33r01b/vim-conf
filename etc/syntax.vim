@@ -3,5 +3,6 @@ autocmd Filetype javascript,javasicript.jsx setlocal noexpandtab
 
 
 " Plugins
-source $HOME/.vim/etc/plugins/syntax/polyglot.vim
-source $HOME/.vim/etc/plugins/syntax/spell.vim
+source ~/.vim/etc/plugins/syntax/polyglot.vim
+source ~/.vim/etc/plugins/syntax/spell.vim
+source ~/.vim/etc/plugins/syntax/translate-shell.vim

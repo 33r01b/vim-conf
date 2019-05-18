@@ -1,5 +1,5 @@
 " search
-nnoremap <silent> <S-Space> :nohl<Bar>:echo<CR>
+nnoremap <silent> <Leader>c :nohl<Bar>:echo<CR>
 
 " tab
 nnoremap <C-T> :tabnew<CR>
@@ -16,10 +16,10 @@ let g:bufExplorerShowRelativePath=1
 let g:bufExplorerSplitRight=1
 
 " Plugins
-source $HOME/.vim/etc/plugins/navigation/fzf.vim
-source $HOME/.vim/etc/plugins/navigation/nerdtree.vim
-source $HOME/.vim/etc/plugins/navigation/easymotion.vim
-source $HOME/.vim/etc/plugins/navigation/tagbar.vim
+source ~/.vim/etc/plugins/navigation/fzf.vim
+source ~/.vim/etc/plugins/navigation/nerdtree.vim
+source ~/.vim/etc/plugins/navigation/easymotion.vim
+source ~/.vim/etc/plugins/navigation/tagbar.vim
 
 " fast move
 noremap <C-l> 4l

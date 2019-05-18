@@ -59,9 +59,9 @@ set backupdir=~/.vim/.backup//
 set directory=~/.vim/.swp//
 
 " Plugins
-source $HOME/.vim/etc/plugins/settings/vimpipe.vim
-source $HOME/.vim/etc/plugins/settings/vim-gitgutter.vim
-source $HOME/.vim/etc/plugins/settings/lvimrc.vim
+source ~/.vim/etc/plugins/settings/vimpipe.vim
+source ~/.vim/etc/plugins/settings/vim-gitgutter.vim
+source ~/.vim/etc/plugins/settings/lvimrc.vim
 
 
 nmap ]h <Plug>GitGutterNextHunk

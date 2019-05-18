@@ -9,4 +9,3 @@ let g:php_html_in_nowdoc=0
 let g:php_sql_query=0
 let g:php_sql_heredoc=0
 let g:php_sql_nowdoc=0
-

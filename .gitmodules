@@ -104,3 +104,12 @@
 [submodule "pack/plugins/start/vim-surround"]
 	path = pack/plugins/start/vim-surround
 	url = https://github.com/tpope/vim-surround.git
+[submodule "pack/plugins/start/translate-shell"]
+	path = pack/plugins/start/translate-shell
+	url = https://github.com/echuraev/translate-shell.vim
+[submodule "pack/plugins/start/coc.nvim"]
+	path = pack/plugins/start/coc.nvim
+	url = https://github.com/neoclide/coc.nvim
+[submodule "pack/plugins/opt/onedark.vim"]
+	path = pack/plugins/opt/onedark.vim
+	url = https://github.com/joshdick/onedark.vim

@@ -4,11 +4,12 @@ set listchars=tab:▸\ ,eol:¬
 
 "autocmd FileType c,cpp,js,php,py autocmd BufWritePre <buffer> %s/\s\+$//e
 
+au BufNewFile,BufRead *.js set filetype=javascript
+
 " Using tabless https://www.npmjs.com/package/standard
-autocmd Filetype javascript setlocal sw=2 sts=2 expandtab
-autocmd Filetype vue setlocal sw=2 sts=2 expandtab
+autocmd Filetype javascript,vue setlocal sw=4 sts=4 expandtab
 
 " Plugins
-source $HOME/.vim/etc/plugins/codestyle/ale.vim
-source $HOME/.vim/etc/plugins/codestyle/php-doc-modded.vim
+source ~/.vim/etc/plugins/codestyle/ale.vim
+source ~/.vim/etc/plugins/codestyle/php-doc-modded.vim
 
