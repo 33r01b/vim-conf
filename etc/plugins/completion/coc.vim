@@ -1,3 +1,5 @@
+autocmd BufNewFile,BufRead *.inc set ft=php
+
 " if hidden is not set, TextEdit might fail.
 set hidden
 
