@@ -1,7 +1,7 @@
 "--yegappan/grep
 
 let Ag_Options = '-f --skip-vcs-ignores --ignore ".git" --ignore "*.min.js" --ignore "tags" --ignore-dir composer -W 100'
-"let Rg_Options = '--ignore-case --follow --no-ignore --hidden -M100'
+let Rg_Options = '--ignore-case --follow --no-ignore --hidden -M100'
 
 "search ignore case
 nnoremap <silent> <F1> :exe ":Rg --follow --hidden -M100 --ignore-file.git"<CR>
