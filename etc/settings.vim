@@ -63,8 +63,4 @@ source ~/.vim/etc/plugins/settings/vimpipe.vim
 source ~/.vim/etc/plugins/settings/vim-gitgutter.vim
 source ~/.vim/etc/plugins/settings/lvimrc.vim
 
-
-nmap ]h <Plug>GitGutterNextHunk
-nmap [h <Plug>GitGutterPrevHunk
-
 map <Space> <Leader>

@@ -110,3 +110,6 @@
 [submodule "pack/plugins/opt/onedark.vim"]
 	path = pack/plugins/opt/onedark.vim
 	url = https://github.com/joshdick/onedark.vim
+[submodule "pack/plugins/start/vim-gitgutter"]
+	path = pack/plugins/start/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter
