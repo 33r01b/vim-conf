@@ -1,4 +1,7 @@
 "--sheerun/vim-polyglot
+"require
+"cd ~/.vim/plugged/vim-polyglot
+"./build
 
 let g:polyglot_disabled = ['apiblueprint', 'applescript', 'arduino', 'autohotkey', 'caddyfile']
 "disabled slowly regex ( https://github.com/StanAngeloff/php.vim#configuration )

@@ -7,3 +7,4 @@ source ~/.vim/etc/plugins/completion/ncm2-ultisnips.vim
 source ~/.vim/etc/plugins/completion/phpcd.vim
 source ~/.vim/etc/plugins/completion/pear-tree.vim
 source ~/.vim/etc/plugins/completion/coc.vim
+source ~/.vim/etc/plugins/completion/go-vim.vim

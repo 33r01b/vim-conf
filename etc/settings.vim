@@ -49,6 +49,11 @@ set switchbuf+=usetab,newtab
 set shell=/usr/bin/zsh
 autocmd FileType make setlocal noexpandtab
 
+syntax on
+filetype on
+filetype plugin on
+filetype plugin indent on
+
 set foldlevel=1
 set foldlevelstart=1
 " specifies for which commands a fold will be opened
