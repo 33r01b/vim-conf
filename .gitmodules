@@ -65,9 +65,6 @@
 [submodule "pack/plugins/start/buferexplorer"]
 	path = pack/plugins/start/buferexplorer
 	url = https://github.com/jlanzarotta/bufexplorer.git
-[submodule "pack/plugins/start/phpactor"]
-	path = pack/plugins/start/phpactor
-	url = https://github.com/phpactor/phpactor
 [submodule "pack/plugins/start/neco-syntax"]
 	path = pack/plugins/start/neco-syntax
 	url = https://github.com/shougo/neco-syntax
