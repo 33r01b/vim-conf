@@ -33,4 +33,4 @@ autocmd FileType javascript,javascript.jsx,jsx setlocal shiftwidth=4 softtabstop
 
 "hi CursorLine   cterm=NONE ctermbg=0 guibg=darkred guifg=white
 
-let $NVIM_COC_LOG_LEVEL = 'debug'
+"let $NVIM_COC_LOG_LEVEL = 'debug'
