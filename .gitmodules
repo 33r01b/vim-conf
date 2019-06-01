@@ -65,36 +65,12 @@
 [submodule "pack/plugins/start/buferexplorer"]
 	path = pack/plugins/start/buferexplorer
 	url = https://github.com/jlanzarotta/bufexplorer.git
-[submodule "pack/plugins/start/ncm2"]
-	path = pack/plugins/start/ncm2
-	url = https://github.com/ncm2/ncm2
-[submodule "pack/plugins/start/ncm2-bufword"]
-	path = pack/plugins/start/ncm2-bufword
-	url = https://github.com/ncm2/ncm2-bufword
-[submodule "pack/plugins/start/ncm2-path"]
-	path = pack/plugins/start/ncm2-path
-	url = https://github.com/ncm2/ncm2-path
 [submodule "pack/plugins/start/phpactor"]
 	path = pack/plugins/start/phpactor
 	url = https://github.com/phpactor/phpactor
-[submodule "pack/plugins/start/ncm2-phpactor"]
-	path = pack/plugins/start/ncm2-phpactor
-	url = https://github.com/phpactor/ncm2-phpactor
-[submodule "pack/plugins/start/ultisnips"]
-	path = pack/plugins/start/ultisnips
-	url = https://github.com/SirVer/ultisnips
-[submodule "pack/plugins/start/ncm2-ultisnips"]
-	path = pack/plugins/start/ncm2-ultisnips
-	url = https://github.com/ncm2/ncm2-ultisnips
-[submodule "pack/plugins/start/ncm2-dictionary"]
-	path = pack/plugins/start/ncm2-dictionary
-	url = https://github.com/yuki-ycino/ncm2-dictionary
 [submodule "pack/plugins/start/neco-syntax"]
 	path = pack/plugins/start/neco-syntax
 	url = https://github.com/shougo/neco-syntax
-[submodule "pack/plugins/start/ncm2-syntax"]
-	path = pack/plugins/start/ncm2-syntax
-	url = https://github.com/ncm2/ncm2-syntax
 [submodule "pack/plugins/start/pear-tree"]
 	path = pack/plugins/start/pear-tree
 	url = https://github.com/tmsvg/pear-tree.git
