@@ -1,2 +1,2 @@
 let g:localvimrc_sandbox = 0
-let g:localvimrc_whitelist=['~/'. $USER .'/langs/php/']
+let g:localvimrc_whitelist=[$HOME . '/langs/php/']
