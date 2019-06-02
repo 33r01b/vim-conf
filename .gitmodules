@@ -89,3 +89,6 @@
 [submodule "pack/plugins/start/vipsql"]
 	path = pack/plugins/start/vipsql
 	url = https://github.com/martingms/vipsql
+[submodule "pack/plugins/start/markdown-preview.nvim"]
+	path = pack/plugins/start/markdown-preview.nvim
+	url = https://github.com/iamcco/markdown-preview.nvim
