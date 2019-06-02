@@ -21,6 +21,10 @@
     lrwxrwxrwx 1 user user 46 Apr 20 16:15 phpstan -> ~/php-linters/vendor/bin/phpstan
 
 ## Установка
+    
+    $ wget -O - https://github.com/zeroonebeatz/vim-conf/raw/master/install.sh | bash
+
+или
 
     $ git clone --recurse-submodules https://github.com/zeroonebeatz/vim-conf ~/.vim
     $ cd ~/.vim/plugged/vim-polyglot && ./build
