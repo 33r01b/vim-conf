@@ -1,6 +1,6 @@
 "w0rp/ale
 
-"require php-codesniffer
+"require php-codesniffer, phpstan
 
 let g:ale_sign_column_always = 1
 let g:ale_sign_error = '⚑'
