@@ -29,7 +29,7 @@ let g:ale_php_phpstan_level = 7
 "}}}
 
 let g:ale_linters = {
-\   'php': ['php', 'phpstan'], 
+\   'php': ['php', 'phpstan', 'phpcs'], 
 \   'python': ['flake8', 'pylint'],
 \   'c': ['gcc'],
 \}
