@@ -67,3 +67,4 @@ autocmd FileType make setlocal noexpandtab
 source ~/.vim/etc/plugins/settings/vimpipe.vim
 source ~/.vim/etc/plugins/settings/vim-gitgutter.vim
 source ~/.vim/etc/plugins/settings/lvimrc.vim
+source ~/.vim/etc/plugins/settings/session.vim
