@@ -4,9 +4,6 @@
 [submodule "pack/plugins/start/ale"]
 	path = pack/plugins/start/ale
 	url = https://github.com/w0rp/ale
-[submodule "pack/plugins/start/php-indent"]
-	path = pack/plugins/start/php-indent
-	url = https://github.com/2072/PHP-Indenting-for-VIm.git
 [submodule "pack/plugins/start/intentline"]
 	path = pack/plugins/start/intentline
 	url = https://github.com/Yggdroot/indentLine.git
@@ -41,9 +38,6 @@
 [submodule "pack/plugins/start/vim-commentary"]
 	path = pack/plugins/start/vim-commentary
 	url = https://github.com/tpope/vim-commentary.git
-[submodule "pack/plugins/start/tagbar"]
-	path = pack/plugins/start/tagbar
-	url = https://github.com/majutsushi/tagbar.git
 [submodule "pack/plugins/start/clang_complete"]
 	path = pack/plugins/start/clang_complete
 	url = https://github.com/Rip-Rip/clang_complete.git
