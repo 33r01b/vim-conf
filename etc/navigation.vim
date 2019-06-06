@@ -19,7 +19,7 @@ let g:bufExplorerSplitRight=1
 source ~/.vim/etc/plugins/navigation/fzf.vim
 source ~/.vim/etc/plugins/navigation/nerdtree.vim
 source ~/.vim/etc/plugins/navigation/easymotion.vim
-source ~/.vim/etc/plugins/navigation/tagbar.vim
+source ~/.vim/etc/plugins/navigation/vista.vim
 
 " fast move
 noremap <C-l> 4l

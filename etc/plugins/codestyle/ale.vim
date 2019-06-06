@@ -39,5 +39,8 @@ let g:ale_linters = {
 let b:ale_warn_about_trailing_whitespace = 0
 let g:ale_python_pylint_options = '--disable=missing-docstring'
 
+nmap <F7> :ALEToggle<CR>
+
+let g:ale_enabled = 0
 let g:ale_lint_on_save = 1
 let g:ale_lint_on_text_changed = 0
