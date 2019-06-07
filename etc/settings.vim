@@ -54,6 +54,8 @@ set diffopt+=iwhite " Ignore whitespace whilst diffing
 set undodir=~/.vim/.undo//
 set backupdir=~/.vim/.backup//
 set directory=~/.vim/.swp//
+set ssop-=options " do not store global and local values in a session
+set ssop-=folds " do not store folds
 
 map <Space> <Leader>
 vnoremap y "+y
