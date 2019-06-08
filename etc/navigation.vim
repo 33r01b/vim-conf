@@ -22,7 +22,13 @@ source ~/.vim/etc/plugins/navigation/easymotion.vim
 source ~/.vim/etc/plugins/navigation/vista.vim
 
 " fast move
-noremap <C-l> 4l
-noremap <C-h> 4h
-noremap <C-j> 4j
-noremap <C-k> 4k
+noremap <S-l> 4l
+noremap <S-h> 4h
+noremap <S-j> 4j
+noremap <S-k> 4k
+ 
+" fast window jump
+noremap <C-l> <C-w>l
+noremap <C-h> <C-w>h
+noremap <C-j> <C-w>j
+noremap <C-k> <C-w>k
