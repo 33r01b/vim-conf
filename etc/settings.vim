@@ -24,7 +24,7 @@ set number
 set path+=**
 set re=1
 set regexpengine=1
-set relativenumber
+"set relativenumber
 set ruler
 set scrolloff=10
 set shell=/usr/bin/zsh

@@ -86,3 +86,6 @@
 [submodule "pack/plugins/start/vista.vim"]
 	path = pack/plugins/start/vista.vim
 	url = https://github.com/liuchengxu/vista.vim.git
+[submodule "pack/plugins/start/vcs-jump"]
+	path = pack/plugins/start/vcs-jump
+	url = https://github.com/wincent/vcs-jump

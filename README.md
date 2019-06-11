@@ -27,6 +27,6 @@
 или
 
     $ git clone --recurse-submodules https://github.com/zeroonebeatz/vim-conf ~/.vim
-    $ cd ~/.vim/plugged/vim-polyglot && ./build
+    $ cd ~/.vim/pack/plugins/start/vim-polyglot && ./build
     $ cd ~/.vim/pack/plugins/start/coc.nvim && ./install.sh
     $ cd ~/.vim/pack/plugins/start/markdown-preview.nvim/app && yarn install
