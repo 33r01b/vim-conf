@@ -83,6 +83,3 @@
 [submodule "pack/plugins/start/markdown-preview.nvim"]
 	path = pack/plugins/start/markdown-preview.nvim
 	url = https://github.com/iamcco/markdown-preview.nvim
-[submodule "pack/plugins/start/vcs-jump"]
-	path = pack/plugins/start/vcs-jump
-	url = https://github.com/wincent/vcs-jump
