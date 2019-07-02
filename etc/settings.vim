@@ -37,7 +37,7 @@ set softtabstop=4
 set spell
 set spelllang=en,ru
 set switchbuf+=usetab,newtab
-set synmaxcol=200
+set synmaxcol=500
 set t_Co=256
 set tabstop=4
 set timeoutlen=100 

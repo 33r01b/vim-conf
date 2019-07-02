@@ -18,7 +18,7 @@ highlight nonText ctermbg=NONE
 au BufNewFile,BufRead *.js set filetype=javascript
 autocmd FileType javascript,javascript.jsx,jsx setlocal shiftwidth=4 softtabstop=4 noexpandtab
 
-"let $NVIM_COC_LOG_LEVEL = 'debug'
+let $NVIM_COC_LOG_LEVEL = 'debug'
 
 "let g:sql_type_default = 'pgsql'
 "let b:sql_type_override='pgsql' | set ft=sql
