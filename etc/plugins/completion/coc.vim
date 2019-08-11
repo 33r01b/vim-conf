@@ -49,7 +49,7 @@ nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 
-nmap <leader>r :CocRestart<cr>
+nmap <leader><S-R> :CocRestart<cr>
 
 " Use K to show documentation in preview window
 nnoremap <silent> <C-D> :call <SID>show_documentation()<CR>
