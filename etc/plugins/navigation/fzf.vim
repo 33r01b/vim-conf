@@ -4,7 +4,7 @@
 
 set rtp+=~/.fzf
 map ; :Files<CR>
-let g:fzf_layout = { 'down': '~15%' }
+let g:fzf_layout = { 'down': '~35%' }
 " --column: Show column number
 " --line-number: Show line number
 " --no-heading: Do not show file headings in results

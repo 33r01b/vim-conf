@@ -7,6 +7,8 @@ source ~/.vim/etc/build.vim
 source ~/.vim/etc/completion.vim
 source ~/.vim/etc/theme.vim
 
+set rtp+=~/.vim/plugins-test
+
 " theme
 let g:lightline.colorscheme = 'onedark'
 let g:falcon_inactive = 1
@@ -21,6 +23,8 @@ au BufNewFile,BufRead *.js set filetype=javascript
 autocmd FileType javascript,javascript.jsx,jsx setlocal shiftwidth=4 softtabstop=4 noexpandtab
 
 let $NVIM_COC_LOG_LEVEL = 'debug'
+
+au BufNewFile,BufRead *.todo set filetype=config
 
 "let g:sql_type_default = 'pgsql'
 "let b:sql_type_override='pgsql' | set ft=sql

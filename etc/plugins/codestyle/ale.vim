@@ -8,7 +8,7 @@ let g:ale_sign_warning = '⚐'
 
 "{{{phpcs
 let g:ale_php_phpcs_use_global = 1
-let g:ale_php_phpcs_standard = 'PSR1,PSR2'
+let g:ale_php_phpcs_standard = 'PSR1,PSR12'
 let s:phpcs_ruleset_path = getcwd() . '/../g:ruleset.xml'
 let s:phpcs_exutable_path =  $HOME . '/bin/phpcs'
 
@@ -32,6 +32,8 @@ let g:ale_linters = {
 \   'php': ['php', 'phpstan', 'phpcs'], 
 \   'python': ['flake8', 'pylint'],
 \   'c': ['gcc'],
+\   'json': ['fixjson'],
+\   'xml': ['xmllint'],
 \}
 
 "   'php': ['php', 'phpstan', 'langserver', 'phpcs'], 
