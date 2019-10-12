@@ -8,4 +8,4 @@ autocmd Filetype javascript,vue setlocal sw=4 sts=4 expandtab
 
 " Plugins
 source ~/.vim/etc/plugins/codestyle/ale.vim
-source ~/.vim/etc/plugins/codestyle/php-doc-modded.vim
+source ~/.vim/etc/plugins/codestyle/vim-doge.vim
