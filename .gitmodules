@@ -47,9 +47,6 @@
 [submodule "pack/plugins/start/vim-localvimrc"]
 	path = pack/plugins/start/vim-localvimrc
 	url = https://github.com/embear/vim-localvimrc.git
-[submodule "pack/plugins/start/php-doc-modded"]
-	path = pack/plugins/start/php-doc-modded
-	url = https://github.com/zeroonebeatz/php-doc-modded.git
 [submodule "pack/plugins/start/buferexplorer"]
 	path = pack/plugins/start/buferexplorer
 	url = https://github.com/jlanzarotta/bufexplorer.git
