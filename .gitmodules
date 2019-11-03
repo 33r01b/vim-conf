@@ -86,9 +86,6 @@
 [submodule "pack/plugins/start/vista.vim"]
 	path = pack/plugins/start/vista.vim
 	url = https://github.com/liuchengxu/vista.vim
-[submodule "pack/plugins/start/tabnine-vim"]
-	path = pack/plugins/start/tabnine-vim
-	url = https://github.com/zxqfl/tabnine-vim
 [submodule "pack/plugins/start/vim-doge"]
 	path = pack/plugins/start/vim-doge
 	url = https://github.com/kkoomen/vim-doge
