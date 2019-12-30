@@ -41,9 +41,6 @@
 [submodule "pack/plugins/start/clang_complete"]
 	path = pack/plugins/start/clang_complete
 	url = https://github.com/Rip-Rip/clang_complete.git
-[submodule "pack/plugins/start/vdebug"]
-	path = pack/plugins/start/vdebug
-	url = https://github.com/vim-vdebug/vdebug.git
 [submodule "pack/plugins/start/vim-localvimrc"]
 	path = pack/plugins/start/vim-localvimrc
 	url = https://github.com/embear/vim-localvimrc.git
@@ -89,3 +86,12 @@
 [submodule "pack/plugins/start/vim-doge"]
 	path = pack/plugins/start/vim-doge
 	url = https://github.com/kkoomen/vim-doge
+[submodule "pack/plugins/opt/onehalf"]
+	path = pack/plugins/opt/onehalf
+	url = https://github.com/sonph/onehalf
+[submodule "pack/plugins/opt/dracula.vim"]
+	path = pack/plugins/opt/dracula.vim
+	url = https://github.com/dracula/vim
+[submodule "pack/plugins/opt/material.vim"]
+	path = pack/plugins/opt/material.vim
+	url = https://github.com/kaicataldo/material.vim

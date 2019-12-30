@@ -236,9 +236,13 @@ snippet dd "dump" b
 dd(${1:${VISUAL}}); 
 endsnippet
 
+snippet vd "var_dump" b
+var_dump(${1:${VISUAL}});die;
+endsnippet
+
 # PHPUnit snippets
 
-snippet testcase "class XYZTest extends \PHPUnit_Framework_TestCase { ... }"
+snippet testcase "class XYZTest extends \Codeception\Test\Unit { ... }"
 <?php
 
 declare(strict_types=1);
@@ -309,5 +313,23 @@ snip.rv = re.match(r'.*(?=\.)', fn).group()
 	{
 		${0:${VISUAL}}
 	}
+}
+endsnippet
+
+snippet tm "test method with dataProvider" b
+/**
+ *@dataProvider getDataFor${1/\w+\s*/\u$0/}
+ */
+public function test${1/\w+\s*/\u$0/}(): void
+{
+    ${0:${VISUAL}}
+}
+
+public function getDataFor${1/\w+\s*/\u$0/}(): array
+{
+    return [
+        [
+        ],
+    ];
 }
 endsnippet

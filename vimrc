@@ -9,25 +9,6 @@ source ~/.vim/etc/theme.vim
 
 set rtp+=~/.vim/plugins-test
 
-" theme
-let g:lightline.colorscheme = 'onedark'
-let g:falcon_inactive = 1
-packadd! onedark.vim
-colorscheme onedark
-highlight Normal ctermbg=NONE guibg=NONE
-highlight SignColumn ctermbg=NONE guibg=NONE
-highlight LineNr ctermbg=NONE guibg=NONE
-let g:gitgutter_override_sign_column_highlight = 0
-
-au BufNewFile,BufRead *.js set filetype=javascript
-autocmd FileType javascript,javascript.jsx,jsx setlocal shiftwidth=4 softtabstop=4 noexpandtab
-
 let $NVIM_COC_LOG_LEVEL = 'debug'
-
-au BufNewFile,BufRead *.todo set filetype=config
-
-"let g:sql_type_default = 'pgsql'
-"let b:sql_type_override='pgsql' | set ft=sql
-"
 
 inoremap <C-c> <Esc>
