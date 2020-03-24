@@ -6,10 +6,9 @@ source ~/.vim/etc/plugins/theme/indentline.vim
 source ~/.vim/etc/plugins/theme/lightline.vim
 
 " theme
-packadd! material.vim
-let g:material_theme_style = 'darker'
-colorscheme material
-let g:lightline = { 'colorscheme': 'material_vim' }
+packadd! onedark.vim
+colorscheme onedark
+let g:lightline = { 'colorscheme': 'onedark' }
 
 
 if exists('+termguicolors')
@@ -18,9 +17,9 @@ if exists('+termguicolors')
   set termguicolors
 endif
 
-hi CursorLine cterm=NONE ctermbg=NONE ctermfg=NONE guibg=gray17 guifg=NONE
-hi CursorColumn cterm=NONE ctermbg=NONE ctermfg=NONE guibg=NONE guifg=NONE
-hi ColorColumn cterm=NONE ctermbg=NONE ctermfg=NONE guibg=gray17 guifg=OrangeRed2
+"hi CursorLine cterm=NONE ctermbg=NONE ctermfg=NONE guibg=gray17 guifg=NONE
+"hi CursorColumn cterm=NONE ctermbg=NONE ctermfg=NONE guibg=NONE guifg=NONE
+"hi ColorColumn cterm=NONE ctermbg=NONE ctermfg=NONE guibg=gray17 guifg=OrangeRed2
 hi Folded cterm=NONE ctermbg=NONE ctermfg=NONE guibg=NONE guifg=gray34
 
 "Golang
