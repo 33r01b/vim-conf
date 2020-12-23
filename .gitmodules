@@ -95,3 +95,6 @@
 [submodule "pack/plugins/opt/material.vim"]
 	path = pack/plugins/opt/material.vim
 	url = https://github.com/kaicataldo/material.vim
+[submodule "pack/plugins/opt/spelunker.vim"]
+	path = pack/plugins/opt/spelunker.vim
+	url = https://github.com/kamykn/spelunker.vim
